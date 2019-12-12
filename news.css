@@ -1,0 +1,506 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+    padding: 0pc;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nevigation p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color: #94999F;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: right;
+}
+
+span {
+    margin-left: 30px;
+}
+
+hr {
+    width: 100%;
+    position: absolute;
+    background: #94999F;
+    top: 30px;
+    right: 0px;
+    opacity: 50%;
+}
+
+.logo {
+    position: absolute;
+    width: 131px;
+    height: 55.17px;
+    left: 30px;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0px;
+    position: absolute;
+    left: 100px;
+    top: -5px;
+}
+
+    ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 20px;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        color: #8C8C8C;
+    }
+
+        ul li a {
+            color: #8C8C8C;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+            ul li a:hover {
+                color: #75B519;
+            }
+
+a:link {
+    text-decoration: none;
+}
+
+.toggle {
+    background: #262F36;
+    width: 100%;
+    height: 50px;
+    padding: 6px;
+    color: #fff;
+    text-align: right;
+    font-size: 25px;
+    display: none;
+}
+.second_block{
+    position:relative;
+    top:100px;
+    
+}
+.filter {
+    width: 115px;
+    height: 30px;
+    font-family: Arca Majora 3;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #F97150;
+    left:30px;
+    position:relative;
+}
+    .filter:hover{
+        color:#75B519;
+    }
+.fisrtimg {
+    /*background:red;*/
+    border: 2px solid rgba(238, 238, 238, 1);
+    height: 800px;
+    position: relative;
+    width: 500px;
+    top: 30px;
+    left: 30px;
+    border-radius: 3px;
+    
+}
+.newsav{
+    width:100%;
+   
+    
+}
+.fisrtimg:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.youu{
+    position:relative;
+    left:10px;
+    top:10px;
+}
+.firstpara {
+    width: 446px;
+    height: 156px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 191.9%;
+    /* or 33px */
+    letter-spacing: 0.02em;
+    color: #8C8C8C;
+    position:relative;
+    left:10px;
+    top:20px;
+}
+.icons{
+    font-size:20px;
+    color:#F97150;
+    position:relative;
+    left:10px;
+    font-family:'Work Sans';
+   left:10px;
+   cursor:pointer;
+
+   
+    
+}
+.Share {
+    font-size: 20px;
+    font-family: 'Work Sans';
+    cursor:pointer;
+}
+.secdiv{
+    height:150px;
+    width:150px;
+    position:relative;
+    left:30px;
+    top:30px;
+}
+.secimg{
+    height:150px;
+    width:100%;
+    overflow:hidden;
+
+}
+.thirddiv{
+    width:100%;
+    position:absolute;
+    top:60px;
+    left:210px;
+}
+.paragr {
+    color: #40668B;
+    font-size: 24px;
+    font-family: 'Arca Majora 3';
+    position: relative;
+}
+.hellp {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+.mee {
+    color: #40668B;
+    font-size: 22px;
+    font-family: 'Arca Majora 3';
+    position: relative;
+}
+.khuu {
+    width: 73%;
+    position: absolute;
+    top: 30px;
+    left: 197px;
+}
+.youu {
+    width: 115px;
+    height: 30px;
+    font-family: Arca Majora 3;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #40668B;
+    left: 10px;
+    position: relative;
+}
+.kkr {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 159.2%;
+    /* or 21px */
+    color: #8C8C8C;
+    position:relative;
+    top:10px;
+}
+.hotnews {
+    width: 115px;
+    height: 30px;
+    font-family: Arca Majora 3;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #F97150;
+    left: 30px;
+    top:100px;
+    position: relative;
+}
+.newone {
+    background: green;
+    height: 400px;
+    width: 370px;
+    position: relative;
+    left:30px;
+
+}
+/*------------------------------------------media query----------------------------------------------*/
+/*------------------------------------------media query----------------------------------------------*/
+/*------------------------------------------media query----------------------------------------------*/
+@media only screen and (max-width: 720px) and (min-width: 160px) {
+    .second_block {
+        position: relative;
+        top: 70px;
+        
+        overflow:hidden;
+    }
+    .secdiv {
+        height: 300px;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 30px;
+    }
+    .secimg {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .khuu {
+        width: 100%;
+        position: relative;
+        top: 30px;
+        left:7px;
+        box-sizing:border-box;
+    }
+
+    .filter {
+        width: 115px;
+        height: 30px;
+        font-family: Arca Majora 3;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        color: #F97150;
+        left:7px;
+        position: relative;
+    }
+    .apis{
+        position:relative;
+        top:20px;
+    }
+    .mee {
+        color: #40668B;
+        font-size: 18px;
+        font-family: 'Arca Majora 3';
+        position: relative;
+        top:5px;
+    }
+    .hotnews {
+     
+         overflow:hide;
+        font-family: Arca Majora 3;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        /* identical to box height */
+        color: #F97150;
+        left: 7px;
+        top: 200px;
+        position: relative;
+    }
+
+    .kkr {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 159.2%;
+        /* or 21px */
+        color: #8C8C8C;
+        position: relative;
+        top: 5px;
+    }
+        .fisrtimg {
+        /*background:red;*/
+        border: none;
+        height: 600px;
+        position: relative;
+        width:100%;
+        top: 10px;
+        left: 0px;
+        border-radius: 3px;
+        width:100%;
+    }
+
+    .newsav {
+        width: 100%;
+    }
+
+    .fisrtimg:hover {
+        box-shadow: none;
+    }
+
+    .youu {
+        position: relative;
+        left: 5px;
+        top: 2px;
+        width:100%;
+        font-size:20px;
+    }
+
+    .firstpara {
+        width: 100%;
+        height: 156px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 191.9%;
+        /* or 33px */
+        letter-spacing: 0.02em;
+        color: #8C8C8C;
+        position: relative;
+        left: 7px;
+        top: 10px;
+    }
+
+    .icons {
+        font-size: 15px;
+        color: #F97150;
+        position: relative;
+        left: 10px;
+        font-family: 'Work Sans';
+        left: 10px;
+        cursor: pointer;
+        top:-20px;
+    }
+
+    .Share {
+        font-size: 20px;
+        font-family: 'Work Sans';
+        cursor: pointer;
+    }
+    .second_col{
+        position:relative;
+        top:10px;
+    }
+
+
+
+    * {
+        padding: 0pc;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+
+    .container-fluid {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    .nevigation p {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 12px;
+        color: #94999F;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 40px;
+        text-align: left;
+        background: #fff;
+        position: fixed;
+        display: none;
+    }
+
+    span {
+        margin-left: 10px;
+    }
+
+    .modal-content {
+        width: 100%;
+    }
+
+    hr {
+        width: 100%;
+        position: absolute;
+        background: #94999F;
+        top: 20px;
+        display: none;
+    }
+
+    .logo {
+        position: fixed;
+        width: 100px;
+        height: 42px;
+        left: 25px;
+        top: 3px;
+        z-index: 1;
+    }
+
+    .toggle {
+        width: 100%;
+        height: 50px;
+        background: #262F36;
+        color: #fff;
+        display: inline-block;
+        font-size: 20px;
+        padding: 10px;
+        position: fixed;
+        margin-top: 0px;
+        z-index: 1;
+    }
+
+    .hideit {
+        display: none;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        left: 0px;
+        top: 15px;
+        background: #101820FF;
+        padding: 10px;
+        margin-top: 35px;
+        z-index: 1;
+        padding: 0px;
+        display: none;
+    }
+
+        ul li {
+            display: block;
+            padding: 10px;
+            text-align: center;
+        }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
